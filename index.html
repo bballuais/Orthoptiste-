@@ -393,6 +393,33 @@
                 </a>
             </div>
         -->
+
+
+<!--Debut test note review-->
+<div id="google-reviews"></div>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDRQoEkNDLEa9Dq7YBUEVf9_nGRpvfcvGE&signed_in=true&libraries=places"></script>
+
+<script>
+jQuery(document).ready(function( $ ) {
+   $("#google-reviews").googlePlaces({
+        placeId: 'ChIJzd3xpzyVBUgRRJGdJhMm5VI'
+      , render: ['reviews']
+      , min_rating: 4
+      , max_rows:4
+   });
+});
+</script>
+
+
+
+<!--Fin test note review-->
+
+
+
         </div>
     </div>
     <div class="container">
