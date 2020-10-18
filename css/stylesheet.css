@@ -7,6 +7,10 @@ display: grid;
 grid-template-columns: repeat( auto-fit, minmax(320px, 1fr));
 }
 
+.adresse {
+  color: #bf3950;
+}
+
 .review-item {
 border:solid 1px rgba(190,190,190,.35);
 margin:0 auto;
