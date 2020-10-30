@@ -56,6 +56,13 @@ line-height:1;
 .bandeau{
   width: 100%;
   height: 50px;
-  background-color: #DD5922;
+  /*background-color: #c47cae;*/
+  /*background-color: #fdd524;*/
+  background-color: #e8ca6f;
   text-align: center;
+}
+
+.bandeau h3{
+  font-size: 30px;
+  padding-top: 10px;
 }
