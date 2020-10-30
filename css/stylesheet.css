@@ -52,3 +52,9 @@ line-height:1;
 }
 .review-stars ul li i.inactive { color: #c6c6c6;}
 .star:after { content: "\2605"; }
+
+.bandeau{
+  width: 100%;
+  height: 50px;
+  background: #DD5922;
+}
