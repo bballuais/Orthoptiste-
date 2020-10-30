@@ -66,3 +66,7 @@ line-height:1;
   font-size: 30px;
   padding-top: 10px;
 }
+
+@media ( max-width:450px) {
+  .bandeau h3{ font-size: 12px; padding-top: 1px;}
+}
