@@ -69,4 +69,13 @@ line-height:1;
 
 @media (max-width: 1024px){
   .bandeau h3{ font-size: 12px; padding-top: 1px;}
+
+  .bandeau{
+    width: 100%;
+    height: 55px;
+    /*background-color: #c47cae;*/
+    /*background-color: #fdd524;*/
+    background-color: #e8ca6f;
+    text-align: center;
+  }
 }
