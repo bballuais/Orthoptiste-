@@ -56,5 +56,6 @@ line-height:1;
 .bandeau{
   width: 100%;
   height: 50px;
-  background: #DD5922;
+  background-color: #DD5922;
+  text-align: center;
 }
