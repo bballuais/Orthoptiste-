@@ -79,3 +79,17 @@ line-height:1;
     text-align: center;
   }
 }
+
+
+.test {
+  text-align: center;
+}
+
+#image {
+  width: 900px;
+  height: auto;
+}
+
+.orange {
+  color: #E4B248;
+}
